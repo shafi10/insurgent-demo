@@ -1,0 +1,59 @@
+.sidebar__container{
+    width: 160px;
+    background-color: var( --color-black);
+    padding: 24px 16px 24px 16px;
+    min-height: 100%;
+}
+
+.company__logo{
+ margin-bottom: 12px;
+}
+
+.sidebar__container_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 95%;
+}
+
+.sidebar__top_list,
+.sidebar__bottom_list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sidebar__container_item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.sidebar__top_list > .sidebar__container_item:nth-child(3) > .sidebar__container_item_title {
+    color: var(--color-cyan);
+  }
+
+.sidebar__container_item_image{
+    height: 16px;
+    width: 16px;
+}
+
+.sidebar__container_item_title{
+    font-size: var(--font-size-12);
+    font-weight: 300;
+    color: var(--color-green);
+}
+
+.sidebar__container_item_notification{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-orange);
+    border-radius: 16px;
+    height: 10px;
+    width: 10px;
+    font-size: 8px;
+    text-align: center;
+}

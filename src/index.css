@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+:root {
+  font-family: "Lexend", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --color-black: #0A1214;
+  --color-cyan: #00E0A4;
+  --color-white: #ffffff;
+  --color-green: #F3F8F8;
+  --color-orange: #ED7E00;
+  --font-size-base: 16px;
+  --font-size-12: 12px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1340px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app__container{
+  width: 100%;
+  background-color: var(--color-green);
+  display: flex;
+  min-height: 100%;
+}
+
+
+.app__dashboard_content{
+ width: 1280px;
+}

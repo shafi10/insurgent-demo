@@ -1,0 +1,14 @@
+.header_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-cyan-2);
+    padding-bottom: var(--space-24);
+}
+
+.header_title{
+  font-size: var(--font-size-28);
+  color: var(--color-black-1);
+  font-weight: 300;
+  line-height: 1;
+}

@@ -2,7 +2,7 @@
     width: 160px;
     background-color: var( --color-black);
     padding: 24px 16px 24px 16px;
-    min-height: 100%;
+    max-height: 100vh;
 }
 
 .company__logo{
@@ -57,3 +57,15 @@
     font-size: 8px;
     text-align: center;
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1100px) {
+    .sidebar__container_list{
+        min-height: 92%;
+    }
+  }
+
+@media only screen and (min-width: 1100px) and (max-width: 1300px) {
+    .sidebar__container_list{
+        min-height: 94%;
+    }
+  }

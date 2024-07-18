@@ -46,7 +46,7 @@ body {
 }
 
 .app__container{
-  width: 100%;
+  min-width: 100%;
   background-color: var(--color-green);
   display: flex;
   min-height: 100%;
@@ -139,4 +139,3 @@ input[type="checkbox"]:checked::after {
 input[type="checkbox"]:checked {
   border: 1px solid  var(--color-cyan); 
 }
-
